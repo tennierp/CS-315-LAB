@@ -1,12 +1,6 @@
 # Lab 07 — Building a Huffman Tree
 
-**Due:** No Due Date  
-**Points:** 30  
-**Submission:** On paper
-
 ## Overview
-
-This on-paper lab is based on Project 3 and covers all steps of Huffman coding by hand using a short text. You will:
 
 1. Tokenize the text
 2. Build a binary search tree (BST)
@@ -15,12 +9,6 @@ This on-paper lab is based on Project 3 and covers all steps of Huffman coding b
 5. Generate both the header and encoded message
 
 > **Important:** Read and follow the algorithms as specified in the main Huffman project statement. Your process here should mirror those algorithms exactly (tokenization rules, BST behavior, PQ ordering, Huffman merging and tie-breaking).
-
-## Logistics
-
-- **Format:** On paper
-- **Group Size:** Work in groups of two
-- **Submission:** Submit one lab per group with both members' names on every sheet
 
 ---
 
@@ -41,8 +29,6 @@ Write each token (word) in lowercase, one per line, in the order they appear.
 **Record:**
 - Total tokens: _____
 - Distinct words: _____
-
-> **Checkpoint:** Call the instructor to verify all words are present and ordered as they appeared in input.
 
 ---
 
@@ -69,8 +55,6 @@ Produce a frequency table by performing an **in-order traversal** of the tree.
 - Min frequency: _____
 - Max frequency: _____
 
-> **Checkpoint:** Call the instructor when this checkpoint is ready.
-
 ---
 
 ## Checkpoint 3 — Build Priority Queue
@@ -91,8 +75,6 @@ Take your (word, frequency) pairs from the BST and sort them using the project's
 | 1 | at |
 | … | … |
 
-> **Checkpoint:** Have the instructor check your PQ ordering before proceeding.
-
 ---
 
 ## Checkpoint 4 — Build Huffman Tree
@@ -102,8 +84,6 @@ Using the sorted list from Checkpoint 3, construct the Huffman tree step-by-step
 **Requirements:**
 - Each internal node should contain a count and a word, just as the leaf nodes
 - Follow the merging algorithm exactly as specified in the project
-
-> **Checkpoint:** Call the instructor once your Huffman tree is complete.
 
 ---
 
@@ -126,8 +106,6 @@ night 101
 the 11
 ```
 
-> **Checkpoint:** Ask the instructor to verify your codes before encoding the message.
-
 ---
 
 ## Checkpoint 6 — Header and Encoded Message
@@ -140,19 +118,10 @@ Using the header output from the previous step, write the encoded version of the
 11 0110 1000 01 0001 101 11 ...
 ```
 
-> **Checkpoint:** Have the instructor check your encoded message before submitting your lab.
-
----
-
-## Submission Requirements
-
-Your submission should include:
-
+## Final project should include:
 - [ ] Token list
 - [ ] BST frequency table
 - [ ] PQ ordering
 - [ ] Final Huffman tree
 - [ ] Complete header
 - [ ] Encoded message
-
-**Remember:** Put both names on every page!
